@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejecutar App GUI (WindowBuilder)",
+            "request": "launch",
+            "mainClass": "com.practicara2.gui.VentanaPrincipal",
+            "projectName": "Practica_RA2_JavaGUI"
+        }
+    ]
+}

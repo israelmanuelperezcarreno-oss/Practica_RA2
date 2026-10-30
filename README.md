@@ -99,3 +99,46 @@ Mensaje número 1
 Mensaje número 2
 Mensaje número 3
 ```
+
+
+---
+
+## ☕ Ejercicio 3: Interfaces en Java (WindowBuilder), Ejecución Cruzada y Comparativa
+
+### 🖼️ Desarrollo de la Aplicación Gráfica con WindowBuilder
+Se ha desarrollado un proyecto Java visual estructurado mediante **WindowBuilder (Swing/AWT)** compuesto por dos ventanas interactivas:
+1. **`VentanaPrincipal` (`JFrame`):**
+   - Presenta un encabezado estilizado y el texto de bienvenida: *"¡Bienvenido a la App!"*.
+   - Incorpora el botón interactivo *"Abrir Segunda Pantalla"*.
+   - Gestiona el evento de acción (`ActionListener`) que instancia y hace visible la ventana secundaria (`setVisible(true)`).
+2. **`SegundaVentana` (`JFrame`):**
+   - Muestra el texto requerido: *"Esta es la segunda pantalla"*.
+   - Incorpora un botón *"Volver / Cerrar Ventana"* que ejecuta `dispose()`, liberando los recursos de la ventana en memoria sin interrumpir la aplicación principal.
+3. **Generación del Ejecutable Autónomo:**
+   - Se ha compilado el código binario (`.class`) y empaquetado en un archivo ejecutable autónomo **`AppGUI.jar`** en la carpeta `bin/`.
+
+---
+
+### 🔄 Demostración de Ejecución Cruzada (*Cross-IDE Portability*)
+El proyecto ha sido ejecutado tanto en **Eclipse IDE** como en **Visual Studio Code** sin requerir ninguna modificación en el código fuente:
+- **Portabilidad garantizada:** El código respeta escrupulosamente la estructura canónica de proyectos Java y las bibliotecas estándar de la plataforma JDK (Java Standard Edition Swing/AWT).
+- **Configuración en VS Code:** Se integró `.vscode/launch.json` y `.vscode/settings.json`, permitiendo compilar y ejecutar el proyecto con un solo clic en VS Code mediante la extensión *Language Support for Java™ by Red Hat*.
+
+---
+
+### 📊 Tabla Comparativa Exhaustiva: Eclipse IDE vs Visual Studio Code
+
+A continuación se realiza una comparativa técnica profunda entre el entorno clásico **Eclipse IDE** y el entorno moderno **Visual Studio Code**, evaluando tanto sus características comunes como sus especificidades de diseño y rendimiento:
+
+| Criterio de Comparativa | Eclipse IDE | Visual Studio Code | Análisis Técnico / Justificación |
+| :--- | :--- | :--- | :--- |
+| **Tipo de Software y Modelo de Licencia** | IDE completo tradicional. Código abierto bajo *Eclipse Public License (EPL 2.0)*. | Editor de código modular y extensible. Núcleo abierto (*MIT* en Code-OSS; binario oficial Microsoft bajo licencia privativa de distribución). | Ambos permiten uso profesional gratuito, pero Eclipse está gobernado enteramente por una fundación comunitaria neutral (*Eclipse Foundation*). |
+| **Arquitectura de Base y Runtimes** | Arquitectura enriquecida de escritorio (*Eclipse Rich Client Platform - RCP*) basada en Java, SWT (Standard Widget Toolkit) y módulos OSGi (Equinox). | Arquitectura web de escritorio (*Electron Framework*), basada en Node.js, Chromium y motor JavaScript V8. | VS Code utiliza procesos desacoplados y comunicación asíncrona; Eclipse corre directamente sobre la Máquina Virtual de Java (JVM). |
+| **Consumo de Recursos y Rendimiento** | **Elevado.** Requiere entre 1 GB y 2.5 GB de RAM. Tiempo de arranque inicial notablemente mayor (10 - 25 segundos). | **Moderado/Ligero.** Arranque casi instantáneo (1 - 3 segundos). Consumo base de memoria entre 300 MB y 800 MB de RAM. | VS Code ofrece una experiencia de usuario mucho más fluida en equipos con recursos limitados. Eclipse requiere hardware más potente para proyectos medianos. |
+| **Compilador y Compilación Incremental** | Incorpora su propio compilador incremental interno: **ECJ (*Eclipse Compiler for Java*)**. No depende necesariamente del `javac` externo del sistema. | No incluye compilador propio. Se comunica mediante el protocolo **LSP (*Language Server Protocol*)** con el servidor de lenguaje *Eclipse JDT Language Server* (JDT-LS). | En Eclipse, el código Java se compila y valida en tiempo real con cada pulsación de tecla de forma instantánea y autónoma. |
+| **Diseñadores Visuales GUI (RAD / CASE)** | **Excelente (WindowBuilder).** Permite diseñar interfaces gráficas Swing/SWT mediante arrastrar y soltar (*drag & drop*) con sincronización bidireccional inmediata de código. | **Ausente de forma nativa.** No dispone de diseñador visual WYSIWYG de interfaces gráficas Java. Requiere escribir el código visual a mano o usar herramientas externas. | Para desarrollo de interfaces gráficas tradicionales Java (Swing/SWT/AWT), Eclipse con WindowBuilder es infinitamente superior y productivo. |
+| **Herramientas CASE y Modelado de Sistemas** | **Avanzado y Estándar de la Industria.** Soporta plugins como **Papyrus SysML 1.6**, EMF (*Eclipse Modeling Framework*) y GMF para ingeniería dirigida por modelos (MDE). | **Básico / Visualizadores.** Soporte restringido a extensiones ligeras de renderizado textual de diagramas (ej. PlantUML o Mermaid). | Eclipse es una plataforma consolidada para ingeniería de software rigurosa y diseño formal orientado a objetos; VS Code se enfoca en codificación ágil. |
+| **Soporte Multilenguaje** | Mediante perspectivas y plugins especializados monolíticos (PyDev para Python, CDT para C/C++, PDT para PHP, WTP para Web). | Nativo y prácticamente universal mediante extensiones desacopladas instalables desde el *Visual Studio Marketplace*. | VS Code popularizó el estándar LSP, lo que le permite soportar más de 50 lenguajes con soporte idéntico de análisis estático y autocompletado. |
+| **Gestión de Espacios de Trabajo (*Workspaces*)** | Modelo rígido basado en carpeta `.metadata`. Un único workspace gestiona múltiples proyectos vinculados simultáneamente. | Basado en carpetas abiertas y archivos `.code-workspace`. Cada ventana del editor se asocia a una carpeta raíz. | El modelo de VS Code es más intuitivo y ligero para desarrollo web y microservicios; el de Eclipse es más robusto para grandes suites empresariales. |
+| **Depuración (*Debugging*)** | Depurador Java de nivel empresarial con soporte maduro de *Hot Code Replace*, inspección de hilos múltiples y visualización de memoria/variables. | Depurador unificado mediante el estándar *Debug Adapter Protocol (DAP)*, con configuración ágil en archivos `launch.json`. | Ambos depuradores son de primer nivel. VS Code destaca por su interfaz minimalista y unificada para depurar front-end y back-end en la misma sesión. |
+| **Integración de Control de Versiones (Git)** | Integración gráfica profunda mediante **EGit**, con perspectivas dedicadas a repositorios Git, historial de ramas y editor de diferencias *Compare Editor*. | Control de versiones integrado de forma nativa en la barra de actividades lateral, soporte de ramas, staging por líneas y terminal interactiva integrada. | La interfaz Git de VS Code es más ágil para flujos diarios; la de Eclipse ofrece mayor detalle analítico en fusiones complejas (*three-way merge*). |

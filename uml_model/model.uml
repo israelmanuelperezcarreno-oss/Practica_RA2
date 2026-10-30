@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Model_Practica_RA2" name="Practica_RA2_Model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_Class_Usuario" name="Usuario">
+    <ownedAttribute xmi:id="_Attr_Usuario_id" name="id" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Attr_Usuario_nombre" name="nombre" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Attr_Usuario_email" name="email" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Attr_Usuario_perfil" name="perfil" type="_Class_Perfil" association="_Assoc_Usuario_Perfil"/>
+    <ownedOperation xmi:id="_Op_Usuario_iniciarSesion" name="iniciarSesion" visibility="public">
+      <ownedParameter xmi:id="_Param_Usuario_iniciarSesion_ret" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Op_Usuario_cerrarSesion" name="cerrarSesion" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Class_Perfil" name="Perfil">
+    <ownedAttribute xmi:id="_Attr_Perfil_idPerfil" name="idPerfil" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_Attr_Perfil_biografia" name="biografia" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Op_Perfil_actualizarBiografia" name="actualizarBiografia" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Assoc_Usuario_Perfil" name="A_Usuario_Perfil" memberEnd="_Attr_Usuario_perfil _AssocEnd_Perfil_Usuario">
+    <ownedEnd xmi:id="_AssocEnd_Perfil_Usuario" name="usuario" type="_Class_Usuario" association="_Assoc_Usuario_Perfil"/>
+  </packagedElement>
+</uml:Model>

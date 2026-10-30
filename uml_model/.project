@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Practica_RA2_UML</name>
+	<comment>Papyrus UML Modeling Project para Practica RA2</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.papyrus.infra.core.architecture.modelingProject</nature>
+	</natures>
+</projectDescription>

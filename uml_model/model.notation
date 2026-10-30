@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ClassDiagram_Usuario_Perfil" type="PapyrusUMLClassDiagram" name="DiagramaClases_Usuario_Perfil" measurementUnit="Pixel">
+  <children xsi:type="notation:Shape" xmi:id="_Shape_Usuario" type="Class_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_Name_Usuario" type="Class_NameLabel"/>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_Attributes_Usuario" type="Class_AttributeCompartment">
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Attr_id" type="Property_ClassAttributeLabel">
+        <element href="model.uml#_Attr_Usuario_id"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Attr_nombre" type="Property_ClassAttributeLabel">
+        <element href="model.uml#_Attr_Usuario_nombre"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Attr_email" type="Property_ClassAttributeLabel">
+        <element href="model.uml#_Attr_Usuario_email"/>
+      </children>
+      <styles xsi:type="notation:TitleStyle" xmi:id="_AttrStyle_Usuario"/>
+      <styles xsi:type="notation:SortingStyle" xmi:id="_AttrSort_Usuario"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_AttrFilter_Usuario"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_Operations_Usuario" type="Class_OperationCompartment">
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Op_iniciarSesion" type="Operation_ClassOperationLabel">
+        <element href="model.uml#_Op_Usuario_iniciarSesion"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Op_cerrarSesion" type="Operation_ClassOperationLabel">
+        <element href="model.uml#_Op_Usuario_cerrarSesion"/>
+      </children>
+      <styles xsi:type="notation:TitleStyle" xmi:id="_OpStyle_Usuario"/>
+      <styles xsi:type="notation:SortingStyle" xmi:id="_OpSort_Usuario"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_OpFilter_Usuario"/>
+    </children>
+    <element href="model.uml#_Class_Usuario"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Bounds_Usuario" x="60" y="80" width="260" height="200"/>
+  </children>
+  <children xsi:type="notation:Shape" xmi:id="_Shape_Perfil" type="Class_Shape">
+    <children xsi:type="notation:DecorationNode" xmi:id="_Name_Perfil" type="Class_NameLabel"/>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_Attributes_Perfil" type="Class_AttributeCompartment">
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Attr_idPerfil" type="Property_ClassAttributeLabel">
+        <element href="model.uml#_Attr_Perfil_idPerfil"/>
+      </children>
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Attr_biografia" type="Property_ClassAttributeLabel">
+        <element href="model.uml#_Attr_Perfil_biografia"/>
+      </children>
+      <styles xsi:type="notation:TitleStyle" xmi:id="_AttrStyle_Perfil"/>
+      <styles xsi:type="notation:SortingStyle" xmi:id="_AttrSort_Perfil"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_AttrFilter_Perfil"/>
+    </children>
+    <children xsi:type="notation:BasicCompartment" xmi:id="_Operations_Perfil" type="Class_OperationCompartment">
+      <children xsi:type="notation:Shape" xmi:id="_Shape_Op_actualizarBiografia" type="Operation_ClassOperationLabel">
+        <element href="model.uml#_Op_Perfil_actualizarBiografia"/>
+      </children>
+      <styles xsi:type="notation:TitleStyle" xmi:id="_OpStyle_Perfil"/>
+      <styles xsi:type="notation:SortingStyle" xmi:id="_OpSort_Perfil"/>
+      <styles xsi:type="notation:FilteringStyle" xmi:id="_OpFilter_Perfil"/>
+    </children>
+    <element href="model.uml#_Class_Perfil"/>
+    <layoutConstraint xsi:type="notation:Bounds" xmi:id="_Bounds_Perfil" x="460" y="80" width="260" height="200"/>
+  </children>
+  <edges xsi:type="notation:Connector" xmi:id="_Edge_Assoc" type="Association_Edge" source="_Shape_Usuario" target="_Shape_Perfil">
+    <children xsi:type="notation:DecorationNode" xmi:id="_Edge_Assoc_Name" type="Association_NameLabel">
+      <layoutConstraint xsi:type="notation:Location" xmi:id="_Loc_Assoc_Name" y="15"/>
+    </children>
+    <element href="model.uml#_Assoc_Usuario_Perfil"/>
+    <bendpoints xsi:type="notation:RelativeBendpoints" xmi:id="_Bendpoints_Assoc" points="[260, 180, -140, 180]$[460, 180, 60, 180]"/>
+    <sourceAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Anchor_Source" id="(1.0, 0.5)"/>
+    <targetAnchor xsi:type="notation:IdentityAnchor" xmi:id="_Anchor_Target" id="(0.0, 0.5)"/>
+  </edges>
+  <styles xsi:type="notation:DiagramStyle" xmi:id="_DiagramStyle_Main"/>
+  <styles xsi:type="style:PapyrusDiagramStyle" xmi:id="_PapyrusStyle_Main"/>
+  <element href="model.uml#_Model_Practica_RA2"/>
+</notation:Diagram>

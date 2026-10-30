@@ -65,3 +65,37 @@ Las herramientas **CASE** (*Computer-Aided Software Engineering* o Ingeniería d
 - **Generación Automatizada de Especificaciones Técnicas:** A partir del repositorio central de modelos (XMI/EMF), la herramienta extrae información actualizada para producir memorias de diseño, diccionarios de datos y manuales de arquitectura en formatos estandarizados (PDF, HTML, DocBook, Markdown).
 - **Lenguaje Visual Unificado y Estandarizado:** Al fundamentarse en estándares internacionales del OMG (*Object Management Group*), la documentación generada elimina la ambigüedad del lenguaje natural y sirve como medio de comunicación riguroso entre clientes, analistas, desarrolladores y evaluadores de calidad.
 - **Historial de Versiones Arquitectónicas y Gobernanza:** Permite documentar la evolución del diseño técnico en consonancia con los sistemas de control de versiones (Git), facilitando auditorías de software y el cumplimiento de normativas de calidad (como ISO/IEC/IEEE 12207 o CMMI).
+
+
+---
+
+## 🐍 Ejercicio 2: Soporte Multilenguaje (Python en Eclipse con PyDev)
+
+### 📌 Justificación del Entorno Multilenguaje
+A través del módulo **PyDev** instalado en Eclipse, se demuestra la versatilidad de un entorno de desarrollo integrado extensible. Un único IDE es capaz de proporcionar resaltado de sintaxis, análisis estático, depuración interactiva y ejecución tanto para lenguajes compilados basados en máquina virtual (Java) como para lenguajes interpretados dinámicos (Python).
+
+### 💻 Código Fuente Implementado (`HolaMundo.py`)
+```python
+# Programa básico en Python
+def mostrar_saludos():
+    print("==================================")
+    print("¡Hola Mundo desde Python en Eclipse!")
+    print("==================================")
+
+# Un pequeño bucle para mostrar la simplicidad de Python
+for i in range(1, 4):
+    print(f"Mensaje número {i}")
+
+if __name__ == "__main__":
+    mostrar_saludos()
+```
+
+### 🖥️ Resultado de la Ejecución en Consola de Eclipse
+```text
+==================================
+¡Hola Mundo desde Python en Eclipse!
+==================================
+Mensaje número 1
+Mensaje número 2
+Mensaje número 3
+```

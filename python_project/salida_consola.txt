@@ -1,0 +1,6 @@
+Mensaje número 1
+Mensaje número 2
+Mensaje número 3
+==================================
+¡Hola Mundo desde Python en Eclipse!
+==================================

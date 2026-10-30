@@ -1,0 +1,1062 @@
+!SESSION 2026-10-30 18:49:29.453 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.4.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-30 18:50:20.941
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-30 18:51:08.255
+!MESSAGE Logback config file: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-30 18:51:20.095
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\israelmanuel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2026-10-30 18:59:17.550
+!MESSAGE The digest algorithms (md5) used to verify osgi.bundle,cdi.api,1.0.0.v201105160744 have severely compromised security. Please report this concern to the artifact provider.
+
+!ENTRY org.eclipse.core.jobs 2 2 2026-10-30 19:06:47.567
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater$2 RUNNING
+	 at java.base/java.lang.StringLatin1.toLowerCase(StringLatin1.java:423)
+	 at java.base/java.lang.String.toLowerCase(String.java:3704)
+	 at java.base/java.lang.String.toLowerCase(String.java:3728)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.MemberProvider$CIMapMemberProvider.lowerCaseKeys(MemberProvider.java:98)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.MemberProvider$CIMapMemberProvider.<init>(MemberProvider.java:85)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.MemberProvider.create(MemberProvider.java:143)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.Matches.match(Matches.java:101)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.Matches.evaluate(Matches.java:73)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.MatchExpression.isMatch(MatchExpression.java:90)
+	 at org.eclipse.equinox.internal.p2.metadata.expression.MatchExpression.isMatch(MatchExpression.java:95)
+	 at org.eclipse.equinox.internal.p2.director.Slicer.isApplicable(Slicer.java:132)
+	 at org.eclipse.equinox.internal.p2.director.Slicer.expandRequirement(Slicer.java:193)
+	 at org.eclipse.equinox.internal.p2.director.Slicer.processIU(Slicer.java:145)
+	 at org.eclipse.equinox.internal.p2.director.Slicer.slice(Slicer.java:69)
+	 at org.eclipse.equinox.internal.p2.director.SimplePlanner.getSolutionFor(SimplePlanner.java:416)
+	 at org.eclipse.equinox.internal.p2.director.SimplePlanner.getProvisioningPlan(SimplePlanner.java:493)
+	 at org.eclipse.equinox.internal.p2.operations.PlannerResolutionJob.runModal(PlannerResolutionJob.java:81)
+	 at org.eclipse.equinox.internal.p2.operations.SearchForUpdatesResolutionJob.runModal(SearchForUpdatesResolutionJob.java:51)
+	 at org.eclipse.equinox.p2.operations.ProfileChangeOperation.resolveModal(ProfileChangeOperation.java:117)
+	 at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:121)
+	 at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater.updatesAvailable(AutomaticUpdater.java:100)
+	 at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdater$2.run(AutomaticUpdater.java:398)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2026-10-30 19:06:47.850 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/israelmanuel/Documents/GitHub/Practica_RA2/HolaMundo/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-30 19:06:59.150
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-30 19:07:01.744
+!MESSAGE Logback config file: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-30 19:07:08.947
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\israelmanuel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 4 0 2026-10-30 19:10:21.213
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.papyrus.views.modelexplorer (1548).
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.papyrus.views.modelexplorer.Activator.start() of bundle org.eclipse.papyrus.views.modelexplorer.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:859)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:780)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:418)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:527)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:439)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:663)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:226)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:175)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:159)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.shouldPersist(CommandStateProxy.java:252)
+	at org.eclipse.ui.internal.commands.CommandService.dispose(CommandService.java:141)
+	at org.eclipse.ui.internal.services.ServiceLocator$3.run(ServiceLocator.java:180)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.services.ServiceLocator.disposeServices(ServiceLocator.java:177)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:150)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3156)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1192)
+	at org.eclipse.ui.internal.Workbench.lambda$6(Workbench.java:1465)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1465)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2709)
+	at org.eclipse.equinox.internal.p2.ui.ProvisioningOperationRunner.lambda$0(ProvisioningOperationRunner.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because "context" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:163)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:157)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:303)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:291)
+	at org.eclipse.papyrus.views.modelexplorer.Activator.start(Activator.java:84)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:838)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:830)
+	... 57 more
+Root exception:
+java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because "context" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:163)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:157)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:303)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:291)
+	at org.eclipse.papyrus.views.modelexplorer.Activator.start(Activator.java:84)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:838)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:830)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:780)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:418)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:527)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:439)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:663)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:226)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:175)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:159)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.shouldPersist(CommandStateProxy.java:252)
+	at org.eclipse.ui.internal.commands.CommandService.dispose(CommandService.java:141)
+	at org.eclipse.ui.internal.services.ServiceLocator$3.run(ServiceLocator.java:180)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.services.ServiceLocator.disposeServices(ServiceLocator.java:177)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:150)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3156)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1192)
+	at org.eclipse.ui.internal.Workbench.lambda$6(Workbench.java:1465)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1465)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2709)
+	at org.eclipse.equinox.internal.p2.ui.ProvisioningOperationRunner.lambda$0(ProvisioningOperationRunner.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.ui 4 0 2026-10-30 19:10:21.217
+!MESSAGE The proxied state for 'org.eclipse.papyrus.views.modelexplorer.handler.SortElementState:org.eclipse.papyrus.views.modelexplorer.modelexplorer' could not be loaded
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in org.eclipse.papyrus.views.modelexplorer was unable to load class org.eclipse.papyrus.views.modelexplorer.handler.SortElementState.
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.throwException(RegistryStrategyOSGI.java:245)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:228)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:175)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:159)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.shouldPersist(CommandStateProxy.java:252)
+	at org.eclipse.ui.internal.commands.CommandService.dispose(CommandService.java:141)
+	at org.eclipse.ui.internal.services.ServiceLocator$3.run(ServiceLocator.java:180)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.services.ServiceLocator.disposeServices(ServiceLocator.java:177)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:150)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3156)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1192)
+	at org.eclipse.ui.internal.Workbench.lambda$6(Workbench.java:1465)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1465)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2709)
+	at org.eclipse.equinox.internal.p2.ui.ProvisioningOperationRunner.lambda$0(ProvisioningOperationRunner.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+Caused by: java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.papyrus.views.modelexplorer (1548).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:133)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:418)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:527)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:439)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:663)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:226)
+	... 41 more
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.papyrus.views.modelexplorer.Activator.start() of bundle org.eclipse.papyrus.views.modelexplorer.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:859)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:780)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	... 50 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because "context" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:163)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:157)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:303)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:291)
+	at org.eclipse.papyrus.views.modelexplorer.Activator.start(Activator.java:84)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:838)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:830)
+	... 57 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2026-10-30 19:10:21.217
+!MESSAGE Plug-in org.eclipse.papyrus.views.modelexplorer was unable to load class org.eclipse.papyrus.views.modelexplorer.handler.SortElementState.
+!STACK 0
+java.lang.ClassNotFoundException: An error occurred while automatically activating bundle org.eclipse.papyrus.views.modelexplorer (1548).
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:133)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:620)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:353)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:418)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:527)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:439)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:195)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:663)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:226)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:1034)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:286)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:65)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:175)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.loadState(CommandStateProxy.java:159)
+	at org.eclipse.ui.internal.commands.CommandStateProxy.shouldPersist(CommandStateProxy.java:252)
+	at org.eclipse.ui.internal.commands.CommandService.dispose(CommandService.java:141)
+	at org.eclipse.ui.internal.services.ServiceLocator$3.run(ServiceLocator.java:180)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.services.ServiceLocator.disposeServices(ServiceLocator.java:177)
+	at org.eclipse.ui.internal.services.ServiceLocator.dispose(ServiceLocator.java:150)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3156)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1192)
+	at org.eclipse.ui.internal.Workbench.lambda$6(Workbench.java:1465)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1465)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2709)
+	at org.eclipse.equinox.internal.p2.ui.ProvisioningOperationRunner.lambda$0(ProvisioningOperationRunner.java:94)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+Caused by: org.osgi.framework.BundleException: Exception in org.eclipse.papyrus.views.modelexplorer.Activator.start() of bundle org.eclipse.papyrus.views.modelexplorer.
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:859)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:780)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1071)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:394)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:643)
+	at org.eclipse.osgi.container.Module.start(Module.java:500)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:528)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:122)
+	... 50 more
+Caused by: java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because "context" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:163)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:157)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:303)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:291)
+	at org.eclipse.papyrus.views.modelexplorer.Activator.start(Activator.java:84)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:838)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:251)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:830)
+	... 57 more
+!SESSION 2026-10-30 19:10:22.990 -----------------------------------------------
+eclipse.buildId=4.41.0.20260903-0719
+java.version=25.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data file:/C:/Users/israelmanuel/Documents/GitHub/Practica_RA2/HolaMundo/
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-30 19:10:33.378
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2026-10-30 19:10:35.706
+!MESSAGE Logback config file: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.201.20260831-2044.xml
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-10-30 19:10:42.595
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\israelmanuel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:44:14.744
+!MESSAGE Unable to make private static native byte[] java.util.prefs.WindowsPreferences.WindowsRegQueryValueEx(long,byte[]) accessible: module java.prefs does not "opens java.util.prefs" to unnamed module @52da1357
+!STACK 0
+java.lang.reflect.InaccessibleObjectException: Unable to make private static native byte[] java.util.prefs.WindowsPreferences.WindowsRegQueryValueEx(long,byte[]) accessible: module java.prefs does not "opens java.util.prefs" to unnamed module @52da1357
+	at java.base/java.lang.reflect.AccessibleObject.throwInaccessibleObjectException(AccessibleObject.java:353)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:329)
+	at java.base/java.lang.reflect.AccessibleObject.checkCanSetAccessible(AccessibleObject.java:277)
+	at java.base/java.lang.reflect.Method.checkCanSetAccessible(Method.java:182)
+	at java.base/java.lang.reflect.Method.setAccessible(Method.java:176)
+	at at.jta.Regor.initMethods(Regor.java:1573)
+	at at.jta.Regor.<init>(Regor.java:264)
+	at org.python.pydev.ui.pythonpathconf.PythonInterpreterProviderFactory.getInterpreterProviders(PythonInterpreterProviderFactory.java:54)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker$3.run(AutoConfigMaker.java:483)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker.getAllProviders(AutoConfigMaker.java:480)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker.getPossibleInterpreters(AutoConfigMaker.java:465)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker.autoConfigSearch(AutoConfigMaker.java:205)
+	at org.python.pydev.ui.pythonpathconf.AutoConfigMaker.autoConfigSingleApply(AutoConfigMaker.java:124)
+	at org.python.pydev.ui.PyProjectPythonDetails$ProjectInterpreterAndGrammarConfig$2.widgetSelected(PyProjectPythonDetails.java:326)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:290)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1241)
+	at org.eclipse.swt.widgets.Widget.sendSelectionEvent(Widget.java:1258)
+	at org.eclipse.swt.widgets.Link.wmNotifyChild(Link.java:733)
+	at org.eclipse.swt.widgets.Control.wmNotify(Control.java:6015)
+	at org.eclipse.swt.widgets.Composite.wmNotify(Composite.java:1958)
+	at org.eclipse.swt.widgets.Control.WM_NOTIFY(Control.java:5584)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5020)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5131)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Link.callWindowProc(Link.java:158)
+	at org.eclipse.swt.widgets.Widget.wmLButtonUp(Widget.java:2178)
+	at org.eclipse.swt.widgets.Control.WM_LBUTTONUP(Control.java:5399)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:5001)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5131)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3747)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:819)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.eclipse.ui.internal.handlers.WizardHandler$New.executeHandler(WizardHandler.java:261)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:279)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:277)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:301)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:484)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:386)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:141)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4161)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.python.pydev.shared_core 1 1 2026-10-30 19:44:15.011
+!MESSAGE - Ok, file is non-null. Getting info on:C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe
+- Beggining task:Getting libs totalWork:100
+- Setting task name:Mounting executable string...
+- Setting task name:Executing: C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe -u C:\Users\israelmanuel\Desktop\Progamacion\eclipse\eclipse\plugins\org.python.pydev.core_13.1.0.202509210817\pysrc\interpreterInfo.py
+- Setting task name:Making pythonpath environment...C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe -u C:\Users\israelmanuel\Desktop\Progamacion\eclipse\eclipse\plugins\org.python.pydev.core_13.1.0.202509210817\pysrc\interpreterInfo.py
+- Setting task name:Making exec...C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe -u C:\Users\israelmanuel\Desktop\Progamacion\eclipse\eclipse\plugins\org.python.pydev.core_13.1.0.202509210817\pysrc\interpreterInfo.py
+- Setting task name:Reading output...
+- Setting task name:Waiting for process to finish.
+- Setting task name:Process finished.
+- Success getting the info. Result:<xml>
+<name>python</name>
+<version>3.14</version>
+<executable>C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe</executable>
+<vmArgs>-Xfrozen_modules=off</vmArgs>
+<lib>C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\DLLs</lib>
+<lib>C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\Lib</lib>
+<lib>C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314</lib>
+<lib>C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\Lib\site-packages</lib>
+<forced_lib>Image</forced_lib>
+<forced_lib>OpenGL</forced_lib>
+<forced_lib>_abc</forced_lib>
+<forced_lib>_ast</forced_lib>
+<forced_lib>_bisect</forced_lib>
+<forced_lib>_blake2</forced_lib>
+<forced_lib>_bytesio</forced_lib>
+<forced_lib>_codecs</forced_lib>
+<forced_lib>_codecs_cn</forced_lib>
+<forced_lib>_codecs_hk</forced_lib>
+<forced_lib>_codecs_iso2022</forced_lib>
+<forced_lib>_codecs_jp</forced_lib>
+<forced_lib>_codecs_kr</forced_lib>
+<forced_lib>_codecs_tw</forced_lib>
+<forced_lib>_collections</forced_lib>
+<forced_lib>_contextvars</forced_lib>
+<forced_lib>_csv</forced_lib>
+<forced_lib>_datetime</forced_lib>
+<forced_lib>_fileio</forced_lib>
+<forced_lib>_functools</forced_lib>
+<forced_lib>_heapq</forced_lib>
+<forced_lib>_hmac</forced_lib>
+<forced_lib>_hotshot</forced_lib>
+<forced_lib>_imp</forced_lib>
+<forced_lib>_interpchannels</forced_lib>
+<forced_lib>_interpqueues</forced_lib>
+<forced_lib>_interpreters</forced_lib>
+<forced_lib>_io</forced_lib>
+<forced_lib>_json</forced_lib>
+<forced_lib>_locale</forced_lib>
+<forced_lib>_lsprof</forced_lib>
+<forced_lib>_md5</forced_lib>
+<forced_lib>_multibytecodec</forced_lib>
+<forced_lib>_opcode</forced_lib>
+<forced_lib>_operator</forced_lib>
+<forced_lib>_pickle</forced_lib>
+<forced_lib>_random</forced_lib>
+<forced_lib>_sha</forced_lib>
+<forced_lib>_sha1</forced_lib>
+<forced_lib>_sha2</forced_lib>
+<forced_lib>_sha256</forced_lib>
+<forced_lib>_sha3</forced_lib>
+<forced_lib>_sha512</forced_lib>
+<forced_lib>_signal</forced_lib>
+<forced_lib>_sre</forced_lib>
+<forced_lib>_stat</forced_lib>
+<forced_lib>_statistics</forced_lib>
+<forced_lib>_string</forced_lib>
+<forced_lib>_struct</forced_lib>
+<forced_lib>_subprocess</forced_lib>
+<forced_lib>_suggestions</forced_lib>
+<forced_lib>_symtable</forced_lib>
+<forced_lib>_sysconfig</forced_lib>
+<forced_lib>_thread</forced_lib>
+<forced_lib>_tokenize</forced_lib>
+<forced_lib>_tracemalloc</forced_lib>
+<forced_lib>_types</forced_lib>
+<forced_lib>_typing</forced_lib>
+<forced_lib>_warnings</forced_lib>
+<forced_lib>_weakref</forced_lib>
+<forced_lib>_winapi</forced_lib>
+<forced_lib>_winreg</forced_lib>
+<forced_lib>array</forced_lib>
+<forced_lib>atexit</forced_lib>
+<forced_lib>audioop</forced_lib>
+<forced_lib>binascii</forced_lib>
+<forced_lib>builtins</forced_lib>
+<forced_lib>cPickle</forced_lib>
+<forced_lib>cStringIO</forced_lib>
+<forced_lib>cmath</forced_lib>
+<forced_lib>cv2</forced_lib>
+<forced_lib>datetime</forced_lib>
+<forced_lib>email</forced_lib>
+<forced_lib>errno</forced_lib>
+<forced_lib>exceptions</forced_lib>
+<forced_lib>faulthandler</forced_lib>
+<forced_lib>future_builtins</forced_lib>
+<forced_lib>gc</forced_lib>
+<forced_lib>gi</forced_lib>
+<forced_lib>hashlib</forced_lib>
+<forced_lib>imageop</forced_lib>
+<forced_lib>imp</forced_lib>
+<forced_lib>itertools</forced_lib>
+<forced_lib>marshal</forced_lib>
+<forced_lib>math</forced_lib>
+<forced_lib>mmap</forced_lib>
+<forced_lib>mock</forced_lib>
+<forced_lib>msvcrt</forced_lib>
+<forced_lib>multiprocessing</forced_lib>
+<forced_lib>mutagen</forced_lib>
+<forced_lib>nt</forced_lib>
+<forced_lib>numpy</forced_lib>
+<forced_lib>operator</forced_lib>
+<forced_lib>os</forced_lib>
+<forced_lib>os.path</forced_lib>
+<forced_lib>parser</forced_lib>
+<forced_lib>py</forced_lib>
+<forced_lib>pytest</forced_lib>
+<forced_lib>random</forced_lib>
+<forced_lib>re</forced_lib>
+<forced_lib>scipy</forced_lib>
+<forced_lib>signal</forced_lib>
+<forced_lib>six</forced_lib>
+<forced_lib>socket</forced_lib>
+<forced_lib>ssl</forced_lib>
+<forced_lib>strop</forced_lib>
+<forced_lib>sys</forced_lib>
+<forced_lib>thread</forced_lib>
+<forced_lib>time</forced_lib>
+<forced_lib>werkzeug</forced_lib>
+<forced_lib>winreg</forced_lib>
+<forced_lib>wx</forced_lib>
+<forced_lib>wxPython</forced_lib>
+<forced_lib>xxsubtype</forced_lib>
+<forced_lib>zipimport</forced_lib>
+<forced_lib>zlib</forced_lib>
+<string_substitution_var><key>PY</key><value>314</value></string_substitution_var>
+</xml>
+
+
+!ENTRY org.python.pydev.shared_core 1 1 2026-10-30 19:44:15.015
+!MESSAGE Restoring info for: C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe
+
+!ENTRY org.python.pydev.shared_core 1 1 2026-10-30 19:44:16.991
+!MESSAGE Finished restoring information for: C:\Users\israelmanuel\AppData\Local\Programs\Python\Python314\python.exe at: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\org.python.pydev\v1_7n9n7f62nkg1wei9n0f9wf4v0
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:44:17.401
+!MESSAGE Info: Rebuilding internal caches: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\org.eclipse.core.resources\.projects\HolaMundo\com.python.pydev.analysis\AdditionalProjectInterpreterInfo.pydevinfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:44:17.403
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.getAdditionalInfoForProject(AdditionalProjectInterpreterInfo.java:250)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:339)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:44:17.818
+!MESSAGE Info: Rebuilding internal caches: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\com.python.pydev.analysis\python_v1_7n9n7f62nkg1wei9n0f9wf4v0\python.pydevsysteminfo (Expected error to be provided and got no error!)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:47:42.123
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:48:12.147
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:103)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:446)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:566)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:218)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2882)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:411)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:762)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:730)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:714)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:790)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1132)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:271)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1150)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.replace(SynchronizableDocument.java:259)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:225)
+	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7188)
+	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8088)
+	at org.eclipse.swt.custom.StyledText.paste(StyledText.java:7262)
+	at org.eclipse.jface.text.TextViewer.paste(TextViewer.java:4154)
+	at org.eclipse.jface.text.TextViewer.doOperation(TextViewer.java:4079)
+	at org.eclipse.jface.text.source.SourceViewer.doOperation(SourceViewer.java:1125)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1754)
+	at org.python.pydev.editor.codefolding.PySourceViewer.doOperation(PySourceViewer.java:210)
+	at org.eclipse.ui.texteditor.TextOperationAction.lambda$0(TextOperationAction.java:134)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:69)
+	at org.eclipse.ui.texteditor.TextOperationAction.run(TextOperationAction.java:134)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:124)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:98)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:301)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:233)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:174)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:165)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:484)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:204)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.handleCommandExecution(KeyBindingDispatcher.java:331)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:322)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:590)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:671)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:460)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:104)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1339)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1216)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1241)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1226)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1268)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1264)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1747)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:5087)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:341)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4964)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:336)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5131)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3747)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.python.pydev.shared_core 1 1 2026-10-30 19:48:27.009
+!MESSAGE No existing console history at: C:\Users\israelmanuel\Documents\GitHub\Practica_RA2\HolaMundo\.metadata\.plugins\org.python.pydev.shared_interactive_console\history.py
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:49:58.945
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getAST(RefactoringRequest.java:279)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.prepareSearch(PyReferenceSearcher.java:104)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:147)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:50:19.438
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyEdit$7.getGrammarVersion(PyEdit.java:1564)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:299)
+	at org.python.pydev.parser.PyParser.reparseDocument(PyParser.java:1)
+	at org.python.pydev.shared_core.parsing.ParserScheduler.reparseDocument(ParserScheduler.java:162)
+	at org.python.pydev.shared_core.parsing.ParsingThread.run(ParsingThread.java:54)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:51:50.610
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.isAbsoluteImportEnabled(AbstractASTManager.java:369)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2384)
+	at org.python.pydev.ast.codecompletion.revisited.AbstractASTManager.findOnImportedMods(AbstractASTManager.java:2300)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:187)
+	at com.python.pydev.analysis.visitors.ImportChecker.visitImportToken(ImportChecker.java:168)
+	at com.python.pydev.analysis.visitors.Scope.addImportTokens(Scope.java:218)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.visitImport(AbstractScopeAnalyzerVisitor.java:626)
+	at org.python.pydev.parser.jython.ast.Import.accept(Import.java:80)
+	at org.python.pydev.parser.jython.ast.Module.traverse(Module.java:87)
+	at com.python.pydev.analysis.scopeanalysis.AbstractScopeAnalyzerVisitor.traverse(AbstractScopeAnalyzerVisitor.java:209)
+	at org.python.pydev.parser.jython.ast.VisitorBase.visitModule(VisitorBase.java:10)
+	at org.python.pydev.parser.jython.ast.Module.accept(Module.java:79)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.getOccurrencesWithScopeAnalyzer(AbstractRenameRefactorProcess.java:284)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameAnyLocalProcess.getOccurrences(PyRenameAnyLocalProcess.java:52)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyRenameAnyLocalProcess.findReferencesToRenameOnLocalScope(PyRenameAnyLocalProcess.java:42)
+	at com.python.pydev.analysis.refactoring.wizards.rename.AbstractRenameRefactorProcess.findReferencesToRename(AbstractRenameRefactorProcess.java:193)
+	at com.python.pydev.analysis.refactoring.wizards.rename.PyReferenceSearcher.search(PyReferenceSearcher.java:160)
+	at com.python.pydev.refactoring.markoccurrences.MarkOccurrencesJob.createRequest(MarkOccurrencesJob.java:151)
+	at org.python.pydev.shared_ui.mark_occurrences.BaseMarkOccurrencesJob.run(BaseMarkOccurrencesJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:52:12.208
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.parser.PyParser$ParserInfo.<init>(PyParser.java:456)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:333)
+	at org.python.pydev.ast.codecompletion.revisited.modules.AbstractModule.createModuleFromDoc(AbstractModule.java:320)
+	at org.python.pydev.ast.refactoring.RefactoringRequest.getModule(RefactoringRequest.java:266)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.prepareRequestForFindDefinition(PyRefactoringFindDefinition.java:145)
+	at org.python.pydev.ast.refactoring.PyRefactoringFindDefinition.findActualDefinition(PyRefactoringFindDefinition.java:75)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getDocstringHover(PyDocstringTextHover.java:101)
+	at org.python.pydev.editor.hover.PyDocstringTextHover.getHoverInfo(PyDocstringTextHover.java:59)
+	at org.python.pydev.editor.hover.PydevCombiningHover.getHoverInfo(PydevCombiningHover.java:141)
+	at org.python.pydev.editor.hover.PyEditorTextHoverProxy.getHoverInfo(PyEditorTextHoverProxy.java:59)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:157)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:52:32.534
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:446)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:566)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:218)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2882)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3545)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:1001)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:979)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1113)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:52:54.606
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:446)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:566)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:218)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2882)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3545)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:1001)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:979)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1113)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:53:16.499
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:446)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:566)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:218)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2882)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3545)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:1001)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:979)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1113)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.ui 4 0 2026-10-30 19:53:41.413
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "newSize" is null
+	at org.python.pydev.debug.console.SetLayoutAction.run(SetLayoutAction.java:72)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1217)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4161)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3749)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-30 19:53:57.376
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at org.python.pydev.editor.PyEdit.getGrammarVersion(PyEdit.java:1535)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateDefaultIsBytesOrUnicode(PyBytesOrUnicodeScanner.java:85)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.updateFutureUnicodeFromDocument(PyBytesOrUnicodeScanner.java:119)
+	at org.python.pydev.editor.PyBytesOrUnicodeScanner.setRange(PyBytesOrUnicodeScanner.java:108)
+	at org.python.pydev.editor.PyDefaultDamagerRepairer.createPresentation(PyDefaultDamagerRepairer.java:143)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.createPresentation(PresentationReconciler.java:446)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:566)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:218)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2882)
+	at org.eclipse.jface.text.TextViewer.invalidateTextPresentation(TextViewer.java:3545)
+	at org.eclipse.jface.text.source.AnnotationPainter.invalidateTextPresentation(AnnotationPainter.java:1001)
+	at org.eclipse.jface.text.source.AnnotationPainter.updatePainting(AnnotationPainter.java:979)
+	at org.eclipse.jface.text.source.AnnotationPainter.lambda$0(AnnotationPainter.java:1113)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:131)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1051)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:193)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:615)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:563)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1415)
+
+!ENTRY org.eclipse.ui.ide 4 0 2026-10-30 19:58:38.836
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2026-10-30 19:58:38.837
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2026-10-30 19:58:38.837
+!MESSAGE The project description file (.project) for 'HolaMundo' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.

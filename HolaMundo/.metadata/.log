@@ -1396,3 +1396,17 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.python.pydev.shared_core 4 4 2026-10-31 11:05:13.677
+!MESSAGE Unsupported version:3.14 (falling back to 3.13)
+!STACK 0
+java.lang.RuntimeException: Unsupported version:3.14 (falling back to 3.13)
+	at org.python.pydev.shared_core.log.Log.log(Log.java:38)
+	at org.python.pydev.core.IPythonNature$Versions.convertToInternalVersion(IPythonNature.java:216)
+	at org.python.pydev.plugin.nature.PythonNature.getVersionAndError(PythonNature.java:904)
+	at org.python.pydev.plugin.nature.PythonNature.getVersion(PythonNature.java:859)
+	at org.python.pydev.plugin.nature.PythonNature.getGrammarVersion(PythonNature.java:1227)
+	at com.python.pydev.analysis.additionalinfo.AdditionalProjectInterpreterInfo.recreateAllInfo(AdditionalProjectInterpreterInfo.java:349)
+	at com.python.pydev.analysis.additionalinfo.builders.InterpreterObserver.notifyProjectPythonpathRestored(InterpreterObserver.java:41)
+	at org.python.pydev.plugin.nature.PythonNature$RebuildPythonNatureModules.run(PythonNature.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
